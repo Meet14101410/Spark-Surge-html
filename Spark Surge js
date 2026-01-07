@@ -1,0 +1,14 @@
+let score = 0;
+
+const spark = document.getElementById("spark");
+const scoreBox = document.getElementById("score");
+
+spark.addEventListener("click", () => {
+  score++;
+  scoreBox.textContent = "Energy: " + score;
+});
+
+function reset(){
+  score = 0;
+  scoreBox.textContent = "Energy: 0";
+}
