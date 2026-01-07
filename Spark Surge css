@@ -1,0 +1,40 @@
+body{
+  font-family:Arial, sans-serif;
+  text-align:center;
+  background:#0b0f29;
+  color:#fff;
+}
+
+h1{
+  margin-top:30px;
+  letter-spacing:1px;
+}
+
+#spark{
+  font-size:90px;
+  cursor:pointer;
+  transition:transform .2s ease;
+}
+
+#spark:hover{
+  transform:scale(1.2);
+}
+
+#score{
+  font-size:22px;
+  margin-top:10px;
+}
+
+button{
+  padding:10px 25px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  background:#1e90ff;
+  color:#fff;
+  font-size:15px;
+}
+
+button:hover{
+  opacity:.8;
+}
